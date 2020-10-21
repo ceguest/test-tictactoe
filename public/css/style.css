@@ -1,0 +1,81 @@
+h1{
+  color: navy;
+  font-family: monospace;
+  font-size: 80px;
+  padding-left: 60px;
+  margin-block-start: 10px;
+  margin-block-end: 5px;
+}
+
+h3{
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  padding-left: 120px;
+  color: navy;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+/*    background-color: #2196F3; */
+    padding: 10px;
+    padding-left: 120px;
+    width: 400px;
+    height: 400px;
+    
+}
+
+.grid-item {
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.top-row {
+    border-top-color: rgba(0,0,0,0);
+}
+
+
+.bottom-row {
+    border-bottom-color: rgba(0,0,0,0);
+}
+
+.left-col {
+  border-left-color: rgba(0,0,0,0);
+}
+
+.right-col {
+  border-right-color: rgba(0,0,0,0);
+}
+
+.ttt-button {
+  height: 120px;
+  width: 120px;
+  border: white;
+  background-color: white;
+  font-size: 90px;
+}
+
+.ttt-button:focus {
+  outline: white;
+  background-color: rgba(120, 123, 125, 0.189);
+}
+.ttt-button:active {
+  outline: white;
+}
+
+
+.button-bar-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-bar{
+  display: grid;
+  align-items: center;
+  width: 450px;
+  grid-template-columns: auto auto;
+  padding-left: 90px;
+  padding-top: 20px;
+}
