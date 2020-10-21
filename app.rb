@@ -84,7 +84,6 @@ post "/ttt" do
                 
                 session[:message] = return_message_if_over(session[:game_controller])
                 m = session[:message]
-                puts 'hello'
                 if session[:game_controller].turn <9 and session[:message] == ""
                     session[:game_controller].run_ai
                 end 
