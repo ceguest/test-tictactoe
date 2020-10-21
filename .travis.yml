@@ -1,4 +1,7 @@
 language: ruby
 script: bundle exec rspec
 rvm:
-  - 2.6.3
+- 2.6.3
+deploy:
+  api_key:
+    secure: wcSA0R3ugZZQDbHsHLElzmCMUs1BS4Uasj+osScy3hTGqAc2QTlfyjp3Rr6QuH7bHBmDQXJ2ykc3P5UkNDW9X4ivUHZ88MmdbpWal34YMQP1/wiFn+D/b0/tfGuSlLk45I/g/Flj8W6jkHx0+RkrxmqGKq5D+J4A2XbeKqhf2ltZ9BV6UbFcAgFiak0Cnf3mqVk59RyCCLitGblcRILkQNbua+vBbhewVinDQFqnK+0iw4xkSljZbklMKMw14mtgoIvVKkSERKZXz21rUnVIA90pcEAbhJeou/KYOZ5z8AgZnNfGXrSrhyjl2Q3vQcZf70jSXuFkiYXl+ue7xL9LvGDauH7uY8U9RDX2I0UWvBQHIKZyyPh8A2znwTLL7/+hw9sRG5Y49Lx5+9MPiF1DLyiPpTTy+FeSHm7wFUYuxikcmTkZqpanqam+SHWnhhdmNDmUBdmLNemH7KwtQiUDDFUdxHIWhZbTyOy3JvNeAowB1sgEaSeNu+Kb2dZHEi+pXI19pnSS54aYOPm7rb9cT/WDipLcU3R93ALFP4mvT9KArL2D8eN8vK+fQrChiIDl4+xUHTACHJLNjLIRY8wfeWmKR8V72hAhdDWQxU6JQCJDu/7LCA+88goTCzmxJ9RsYshDNSSeluaHbcxbEmzMLugEBqVIhmW3aUuee8ieIgE=
